@@ -92,6 +92,7 @@
 				28B2849E29B342AB00408039 /* DetailEditView.swift */,
 				28B284A129B388EA00408039 /* ThemeView.swift */,
 				28B284A329B389DD00408039 /* ThemePicker.swift */,
+				28B284B429B3BE2F00408039 /* Services */,
 				28B284A029B388DA00408039 /* Helpers */,
 				28B2848729B3221800408039 /* Assets.xcassets */,
 				28B2848929B3221800408039 /* Preview Content */,
@@ -114,7 +115,6 @@
 				28B2849229B3290E00408039 /* Theme.swift */,
 				28B284A929B3A08500408039 /* ScrumTimer.swift */,
 				28B284B029B3AE1B00408039 /* History.swift */,
-				28B284B229B3B1E200408039 /* ScrumStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -137,6 +137,14 @@
 				28B284AE29B3A37200408039 /* MeetingFooterView.swift */,
 			);
 			path = MeetingViews;
+			sourceTree = "<group>";
+		};
+		28B284B429B3BE2F00408039 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				28B284B229B3B1E200408039 /* ScrumStore.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,6 +371,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -392,6 +401,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
