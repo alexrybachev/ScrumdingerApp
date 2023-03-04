@@ -27,6 +27,8 @@
 		28B284AF29B3A37300408039 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B284AE29B3A37200408039 /* MeetingFooterView.swift */; };
 		28B284B129B3AE1B00408039 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B284B029B3AE1B00408039 /* History.swift */; };
 		28B284B329B3B1E200408039 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B284B229B3B1E200408039 /* ScrumStore.swift */; };
+		28B284B629B3C1F500408039 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B284B529B3C1F500408039 /* ErrorWrapper.swift */; };
+		28B284B829B3C27700408039 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B284B729B3C27700408039 /* ErrorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		28B284AE29B3A37200408039 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		28B284B029B3AE1B00408039 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		28B284B229B3B1E200408039 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
+		28B284B529B3C1F500408039 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		28B284B729B3C27700408039 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,8 @@
 			isa = PBXGroup;
 			children = (
 				28B284B229B3B1E200408039 /* ScrumStore.swift */,
+				28B284B529B3C1F500408039 /* ErrorWrapper.swift */,
+				28B284B729B3C27700408039 /* ErrorView.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -227,10 +233,12 @@
 				28B284AF29B3A37300408039 /* MeetingFooterView.swift in Sources */,
 				28B2849D29B335F900408039 /* DetailView.swift in Sources */,
 				28B284A629B39C6A00408039 /* MeetingHeaderView.swift in Sources */,
+				28B284B629B3C1F500408039 /* ErrorWrapper.swift in Sources */,
 				28B2849F29B342AB00408039 /* DetailEditView.swift in Sources */,
 				28B2849929B32C8C00408039 /* TrailingIconLabelStyle.swift in Sources */,
 				28B2849329B3290E00408039 /* Theme.swift in Sources */,
 				28B2849B29B32EFB00408039 /* ScrumsView.swift in Sources */,
+				28B284B829B3C27700408039 /* ErrorView.swift in Sources */,
 				28B2848629B3221300408039 /* MeetingView.swift in Sources */,
 				28B2848429B3221300408039 /* ScrumdingerAppApp.swift in Sources */,
 				28B284A229B388EA00408039 /* ThemeView.swift in Sources */,
